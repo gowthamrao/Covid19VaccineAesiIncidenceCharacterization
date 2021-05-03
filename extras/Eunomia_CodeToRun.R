@@ -9,8 +9,8 @@
 library(Covid19VaccineAesiIncidenceCharacterization)
 
 # Specify where the temporary files (used by the Andromeda package) will be created:
-andromedaTempFolder <- if (Sys.getenv("ANDROMEDA_TEMP_FOLDER") == "") "~/andromedaTemp" else Sys.getenv("ANDROMEDA_TEMP_FOLDER")
-options(andromedaTempFolder = andromedaTempFolder)
+# andromedaTempFolder <- if (Sys.getenv("ANDROMEDA_TEMP_FOLDER") == "") "~/andromedaTemp" else Sys.getenv("ANDROMEDA_TEMP_FOLDER")
+# options(andromedaTempFolder = andromedaTempFolder)
 
 # Define a schema that can be used to emulate temp tables:
 tempEmulationSchema <- NULL
